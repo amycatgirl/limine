@@ -1,0 +1,5 @@
+# EMACS backup files
+*.*~
+
+# SLIME Compilation artifacts
+*.fasl
