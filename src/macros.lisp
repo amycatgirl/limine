@@ -1,6 +1,3 @@
-(defpackage :limine
-  (:use :cl))
-
 (in-package :limine)
 
 (defmacro nested-loop (syms dimensions &body body)
@@ -8,7 +5,6 @@
 
    SYMS must be a list of symbols, with the first symbol
    corresponding to the outermost loop.
-
    DIMENSIONS will be evaluated, and must be a list of
    dimension sizes, of the same length as SYMS.
 
