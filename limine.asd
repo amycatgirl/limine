@@ -4,6 +4,6 @@
 				     (:file "main"
 					    :depends-on ("macros"))
 				     (:file "macros"))))
-  :depends-on (:ltk)
+  :depends-on (:nodgui)
   :version "0.0.1"
   :licence "MIT")

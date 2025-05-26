@@ -1,3 +1,5 @@
 (defpackage #:limine
-	    (:use #:cl #:ltk)
+	    (:use #:cl
+		  #:nodgui
+		  #:nodgui.utils)
 	    (:export #:main))
