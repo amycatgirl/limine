@@ -1,0 +1,47 @@
+#+title: Limine
+Toy minesweeper clone written in common lisp.
+
+* TODO Screenshots
+Not available yet
+
+* Dependencies
+- SBCL
+- TCL/TK >= 8.6
+- turbojpeg
+- libsdl2
+
+* TODO Building
+Not available yet
+
+* Development
+Load ~limine.asd~ using your favourite REPL wrapper and load the system:
+#+begin_src lisp
+  (ql:quickload :limine)
+#+end_src
+
+Then run the program by calling it's entrypoint:
+#+begin_src lisp
+  (limine:main)
+#+end_src
+
+* To-do List
+** TODO [#B] Game Loop [0/2]
+- [ ] Allow the user to win
+- [ ] Mine flagging [0/2]
+  - [ ] Track flagged mine count
+  - [ ] Make the user win if all mines are flagged
+** TODO [#C] UI [0/4]
+- [ ] New game [0/1]
+  - [ ] Difficulty selection
+- [ ] Mine count display
+- [ ] Time elapsed display
+- [ ] Smiley face (acts as a restart button) [0/1]
+  - [ ] Get (or make) assets
+
+* Resources
+- https://en.wikipedia.org/wiki/Minesweeper_(video_game)
+- https://www.autistici.org/interzona/nodgui.html
+- https://tkdocs.com/index.html
+
+* License
+This project is licenced under the [[file:LICENSE][MIT License]].
